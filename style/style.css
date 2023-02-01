@@ -1,0 +1,50 @@
+body{
+ background-color: aliceblue;
+
+}
+.container{
+  background: linear-gradient(109.6deg, rgb(120, 212, 234) 11.2%, rgb(216, 226, 253) 72.1%);
+  max-width: 600px;
+  max-height: 1000px;
+  border: 5px ;
+  border-radius: 10px;
+  margin:40px auto;
+  padding: 20px;
+}
+#description{
+  background-color: rgb(192, 253, 253, 0.10);
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px rgb(0, 0, 0 , 0.08);
+  margin: 20px auto;
+
+}
+#left-boxes{
+  margin: 20px auto;
+  text-align: center;
+
+}
+.temperature{
+  background-color: rgb(192, 253, 253, 0.10);
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px rgb(0, 0, 0 , 0.08);
+}
+.air-condition{
+  background-color: rgb(192, 253, 253, 0.10);
+  padding: 5px;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px rgb(0, 0, 0 , 0.08);
+}
+.forcast{
+  background-color: rgb(192, 253, 253, 0.10);
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px rgb(0, 0, 0 , 0.08);
+  margin: 10px 10px auto;
+  padding: 10px;
+  text-align: center;
+}
