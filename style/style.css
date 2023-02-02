@@ -1,6 +1,6 @@
 body{
   background-color: aliceblue;
-
+  
 }
 .container{
   background: linear-gradient(109.6deg, rgb(120, 212, 234) 11.2%, rgb(216, 226, 253) 72.1%);
@@ -86,4 +86,9 @@ h3,h6,#city{
 .min-temp{
   color: #516787;
   margin-left: 4px;
+}
+p{
+  text-align: center;
+  font-size:10px;
+  margin-top: 0;
 }
