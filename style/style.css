@@ -17,7 +17,8 @@ body{
   border-radius: 10px;
   box-shadow: 2px 2px 5px 5px rgb(0, 0, 0 , 0.08);
   margin: 20px auto;
-
+  line-height: 2;
+  padding: 20px;
 }
 #left-boxes{
   margin: 20px auto;
@@ -27,10 +28,14 @@ body{
 .temperature{
   background-color: rgb(192, 253, 253, 0.10);
   margin-bottom: 20px;
-  padding: 5px;
+  padding: 10px;
+  line-height: 2;
   border: 1px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px 5px rgb(0, 0, 0 , 0.08);
+}
+hr{
+  margin: 10px 20px ;
 }
 .air-condition{
   background-color: rgb(192, 253, 253, 0.10);
@@ -39,12 +44,46 @@ body{
   border-radius: 10px;
   box-shadow: 2px 2px 5px 5px rgb(0, 0, 0 , 0.08);
 }
+#info{
+  margin-top: 20px;
+  list-style: none;
+  color: black;
+  
+}
+
+#current-time{
+  color: #516787;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+h3,h6,#city{
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: 'Erica One', cursive;
+}
+#icon{
+  max-width: 80px;
+  margin: 0 auto;
+}
 .forcast{
   background-color: rgb(192, 253, 253, 0.10);
   border: 1px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px 5px rgb(0, 0, 0 , 0.08);
-  margin: 10px 10px auto;
-  padding: 10px;
+  margin: 10px 5px auto;
+  padding: 5px;
   text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#forcast-icon{
+  max-width: 50px;
+  
+}
+.min-temp{
+  color: #516787;
+  margin-left: 4px;
 }
